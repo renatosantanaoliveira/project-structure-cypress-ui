@@ -1,14 +1,13 @@
 export const authElements = {
     LOGIN: {
-        PHONE: '',
-        PASSWORD: '',
-        BTN_LOGIN: '',
-        LNK_FORGOT_PASSWORD: ''
+        USERNAME: '#userName',
+        PASSWORD: '#password',
+        BTN_LOGIN: '#login'
     },
 
     MENSAGEM: {
-        WELCOME: '',
-        INFORMATIVE: '',
-        INVALID: ''
+        WELCOME: 'h2',
+        INFORMATIVE: 'h5',
+        INVALID: '#name'
     }
 }
