@@ -7,9 +7,9 @@ class Util {
         return Math.random().toString(36).slice(-7)
     }
 
-    // getRandonCode(){
-    //     this.textoAleatorio(6)
-    // }
+    getRandonCode(){
+        this.textoAleatorio(6)
+    }
 
     getRandonCode(tamanho) {
         const letras = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz';
@@ -22,14 +22,12 @@ class Util {
     }
 
     screenshot() {
-        var today = new Date();
-        var dd = String(today.getDate()).padStart(2, '0');
-        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-        var yyyy = today.getFullYear();
+        const dateFull = new Date();
+        const dateCurrent = dateFull.getUTCDate() + '-' + (dateFull.getUTCMonth() + 1) + '-' + dateFull.getFullYear()
+        const horaCurrent = dateFull.getHours() + '' + dateFull.getMinutes() + '' + dateFull.getSeconds()
+        var dateTimeCurrent = dateCurrent + '_' + horaCurrent
 
-        today = mm + '/' + dd + '/' + yyyy;
-
-        cy.screenshot(today)
+        cy.screenshot(dateTimeCurrent)
     }
 }
 

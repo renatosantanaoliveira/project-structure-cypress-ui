@@ -2,6 +2,7 @@
 
 import Auth from '../support/SignIn/SignInPage'
 import Home from '../support/Home/HomePage'
+import {screenshot} from '../support/utils'
 
 describe('Login Demo QA', () =>{
     beforeEach(() => {
@@ -11,13 +12,13 @@ describe('Login Demo QA', () =>{
     context('Happy path', () => {
         it('Validate log-in screen', function () {
             Auth.validateLogin()
-            cy.screenshot('validate-page')
+            screenshot()
         })
 
         it('Log in successfully', function () {
             Auth.authenticateUser()
             Home.validateMessagemWelcome()
-            cy.screenshot('login-successfully')
+            screenshot()
         })
     })
 
@@ -25,7 +26,7 @@ describe('Login Demo QA', () =>{
         it('Log in with the wrong data', function () {
             Auth.authenticateWithDataInvalid()
             Auth.validateInvalidUserMessage()
-            cy.screenshot('invalid-user')
+            screenshot()
         })
     });
 
