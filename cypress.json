@@ -2,5 +2,6 @@
     "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
     "baseUrl": "https://demoqa.com",
     "viewportWidth": 1024,
-    "viewportHeight": 800
+    "viewportHeight": 800,
+    "experimentalStudio": true
 }

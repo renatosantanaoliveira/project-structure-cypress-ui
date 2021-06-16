@@ -32,7 +32,9 @@ class AuthPage {
     }
 
     authenticateWithDataInvalid() {
-        this.fastLogin(util.getRandomPhone(), util.getRandonPassword())
+        var faker = require('faker');
+
+        this.fastLogin(faker.name.firstName(), util.getRandonPassword())
     }
 
 }
