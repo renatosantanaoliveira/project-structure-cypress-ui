@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Account', () => {
+describe('Account service', () => {
   var faker = require('faker');
   it('Add new user', () => {
     var user = {

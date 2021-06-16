@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Books Store', () => {
+describe('Books Store service', () => {
   it('List all books', () => {
     cy.request({
       method: 'GET',
