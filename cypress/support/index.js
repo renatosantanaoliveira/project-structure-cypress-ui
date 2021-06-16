@@ -31,6 +31,3 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 before(() => {
     cy.visit('/')
 })
-beforeEach(() => {
-    cy.reload()
-})

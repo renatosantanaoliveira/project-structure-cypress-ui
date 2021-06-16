@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 
-import Auth from '../support/SignIn/SignInPage'
-import Home from '../support/Home/HomePage'
-import {screenshot} from '../support/utils'
+import Auth from '../../support/SignIn/SignInPage'
+import Home from '../../support/Home/HomePage'
+import {screenshot} from '../../support/utils'
 
 describe('Login Demo QA', () =>{
     beforeEach(() => {
