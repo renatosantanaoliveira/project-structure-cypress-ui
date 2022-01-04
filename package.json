@@ -1,8 +1,7 @@
 {
-  "name": "Demo-web-test",
+  "name": "project-structure-cypress-ui",
   "version": "1.0.0",
   "description": "Project: Demo QA",
-  "main": "index.js",
   "scripts": {
     "test": "cypress run --config video=false --env allure=true",
     "cy:open": "cypress open",
@@ -14,8 +13,8 @@
   "keywords": [],
   "author": "Renato Santana de Oliveira",
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^1.8.5",
-    "cypress": "^7.2.0",
+    "@shelex/cypress-allure-plugin": "2.23.0",
+    "cypress": "9.2.0",
     "faker": "^5.5.3"
   }
 }

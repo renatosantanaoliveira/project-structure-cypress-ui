@@ -19,5 +19,15 @@ const allureWriter = require('@shelex/cypress-allure-plugin/writer')
 
 module.exports = (on, config) => {
     allureWriter(on, config)
+
+    // if version not defined, use local
+    const version = config.env.version || 'stg'
+
+    // load env from json
+    config.env = require(`../config/${version}.json`);
+
+    // change baseUrl
+    config.baseUrl = config.env.baseUrl
+
     return config
 }

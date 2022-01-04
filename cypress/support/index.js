@@ -27,7 +27,3 @@ Cypress.SelectorPlayground.defaults({
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false
 })
-
-before(() => {
-    cy.visit('/')
-})
