@@ -1,2 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Aug 26 07:33:52 GMT 2022","Fri Aug 26 07:33:53 GMT 2022","996","","Account service","","","","Add new user",""
+"passed","Fri Aug 26 07:34:10 GMT 2022","Fri Aug 26 07:34:15 GMT 2022","5188","Login Demo QA","Alternative path","","","","Log in with the wrong data",""
+"passed","Fri Aug 26 07:34:03 GMT 2022","Fri Aug 26 07:34:10 GMT 2022","6907","Login Demo QA","Happy path","","","","Log in successfully",""
+"passed","Fri Aug 26 07:33:52 GMT 2022","Fri Aug 26 07:34:03 GMT 2022","10271","Login Demo QA","Happy path","","","","Validate log-in screen",""
