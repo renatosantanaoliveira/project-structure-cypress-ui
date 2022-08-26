@@ -1,4 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Aug 26 07:33:39 GMT 2022","Fri Aug 26 07:33:39 GMT 2022","154","","Books Store service","","","","Validate book name and author in book list",""
-"passed","Fri Aug 26 07:33:38 GMT 2022","Fri Aug 26 07:33:39 GMT 2022","529","","Books Store service","","","","List all books",""
-"passed","Fri Aug 26 07:33:39 GMT 2022","Fri Aug 26 07:33:39 GMT 2022","106","","Books Store service","","","","Search to book",""
+"passed","Fri Aug 26 07:33:47 GMT 2022","Fri Aug 26 07:33:51 GMT 2022","4298","Book Store Demo QA","Alternative path","","","","Search wrong book name",""
+"passed","Fri Aug 26 07:33:28 GMT 2022","Fri Aug 26 07:33:35 GMT 2022","7830","Book Store Demo QA","Happy path","","","","Validate screen",""
+"passed","Fri Aug 26 07:33:40 GMT 2022","Fri Aug 26 07:33:47 GMT 2022","6879","Book Store Demo QA","Happy path","","","","Click in book",""
+"passed","Fri Aug 26 07:33:35 GMT 2022","Fri Aug 26 07:33:40 GMT 2022","4525","Book Store Demo QA","Happy path","","","","Search book",""
